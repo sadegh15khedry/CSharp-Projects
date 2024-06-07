@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="WPFUI.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Name="myGrid"
+          ShowGridLines="False"
+          Margin="0 0 15 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <!-- header title -->
+        <TextBlock FontSize="50"
+                   FontWeight="Bold"
+                   Grid.Row="0"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="0 80">
+                Welcome to Shop Manager!
+        </TextBlock>
+        
+        <!-- email -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="1">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Email :
+            </Label>
+            <TextBox Width="250" />
+        </StackPanel>
+        
+        <!-- Passowrd -->
+        <StackPanel Margin="0 0 30 10"
+                    Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Password:
+            </Label>
+            <PasswordBox   Width="250" />
+        </StackPanel>
+
+        <!-- Forgot Password -->
+        <TextBlock Grid.Row="3"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center">
+            Forgot password? click here !
+        </TextBlock>
+
+        <!-- Login Button -->
+        <Button Width="180"
+                Height="50"
+                Grid.Row="4"
+                Name="LoginButton"
+                HorizontalAlignment="Center"
+                Margin="50 30 0 30">
+            Login
+        </Button>
+
+        <!-- Login to Signup -->
+        <TextBlock Grid.Row="5"
+                   Grid.Column="0"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center">
+            Don't have an account?? 
+            
+            <Button Name="ToSignupButton"
+                    Style="{StaticResource LinkTypeButtonStyle}"
+                    Foreground="#FFFF">
+                Sign up
+            </Button>
+
+
+        </TextBlock>
+
+
+    </Grid>
+</UserControl>

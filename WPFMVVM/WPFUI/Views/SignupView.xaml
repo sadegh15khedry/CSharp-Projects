@@ -1,0 +1,159 @@
+﻿<UserControl x:Class="WPFUI.Views.SignupView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <!--header title-->
+        <TextBlock FontSize="50"
+                   FontWeight="Bold"
+                   Grid.Row="0"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Margin="0 80">
+                Create an account
+        </TextBlock>
+
+        <!-- First Name -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="1">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                First Name :
+            </Label>
+            <TextBox x:Name="FirstName"
+                     Width="250" />
+        </StackPanel>
+        <!-- Last Name -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="2">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Last Name :
+            </Label>
+            <TextBox x:Name="LastName"
+                     Width="250" />
+        </StackPanel>
+        <!-- email -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="3">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Email :
+            </Label>
+            <TextBox x:Name="Email"
+                     Width="250" />
+        </StackPanel>
+
+        <!-- SSN -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="4">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                SSN :
+            </Label>
+            <TextBox x:Name="SSN"
+                     Width="250" />
+        </StackPanel>
+
+        <!-- Date of birth -->
+        <StackPanel HorizontalAlignment="Center"
+                    Margin="0 0 0 20"
+                    Orientation="Horizontal"
+                    Grid.Row="5">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Date of birth :
+            </Label>
+            <TextBox x:Name="DateOfBirth"
+                     Width="250" />
+        </StackPanel>
+
+        <!-- password -->
+        <StackPanel Margin="0 0 30 10"
+                    Grid.Row="6"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Password:
+            </Label>
+            <PasswordBox x:Name="Password"
+                         Width="250" />
+        </StackPanel>
+
+        <!-- confirm password -->
+        <StackPanel Margin="0 0 30 10"
+                    Grid.Row="7"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Label FontFamily="Microsoft Sans Serif"
+                   Foreground="#FFFF">
+                Confirm Password:
+            </Label>
+            <PasswordBox x:Name="ConfirmPassword"
+                         Width="250" />
+        </StackPanel>
+
+
+
+        <!-- forgot password -->    
+        <TextBlock Grid.Row="8"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center">
+            Forgot password? click here !
+        </TextBlock>
+
+        <!-- Signup button -->
+        <Button Width="180"
+                Height="50"
+                Grid.Row="9"
+                Name="SignupButton"
+                HorizontalAlignment="Center"
+                Margin="50 30 0 30">
+            ُCreate Account
+        </Button>
+
+        <!-- Signup to login -->
+        <TextBlock Grid.Row="10"
+                   Grid.Column="0"
+                   HorizontalAlignment="Stretch"
+                   TextAlignment="Center">
+            already have an account?? 
+            <Button Style="{StaticResource LinkTypeButtonStyle}"
+                    Foreground="#FFFF">
+                Login
+            </Button>
+        </TextBlock>
+    </Grid>
+</UserControl>

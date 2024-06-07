@@ -1,0 +1,17 @@
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\bin\Debug\net6.0-windows\LearningWinForms.exe
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\bin\Debug\net6.0-windows\LearningWinForms.deps.json
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\bin\Debug\net6.0-windows\LearningWinForms.runtimeconfig.json
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\bin\Debug\net6.0-windows\LearningWinForms.dll
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\bin\Debug\net6.0-windows\LearningWinForms.pdb
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.csproj.AssemblyReference.cache
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.csproj.GenerateResource.cache
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.AssemblyInfoInputs.cache
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.AssemblyInfo.cs
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.csproj.CoreCompileInputs.cache
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.dll
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\refint\LearningWinForms.dll
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.pdb
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.genruntimeconfig.cache
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\ref\LearningWinForms.dll
+C:\Users\sadeg\source\repos\LearningWinForms\LearningWinForms\obj\Debug\net6.0-windows\LearningWinForms.MainForm.resources

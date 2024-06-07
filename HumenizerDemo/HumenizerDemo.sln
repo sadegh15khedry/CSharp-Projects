@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumenizerDemoApp", "HumenizerDemoApp\HumenizerDemoApp.csproj", "{7E422FE0-45D5-4D35-B1C2-F44394CA0FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E422FE0-45D5-4D35-B1C2-F44394CA0FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E422FE0-45D5-4D35-B1C2-F44394CA0FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E422FE0-45D5-4D35-B1C2-F44394CA0FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E422FE0-45D5-4D35-B1C2-F44394CA0FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B76C5B91-19E8-4962-98A2-E46B7824464E}
+	EndGlobalSection
+EndGlobal
